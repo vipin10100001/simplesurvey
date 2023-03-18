@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Survey form</title>
+</head>
+<body style="background-color:yellow">
+    <header>
+      <center ><h1>HTML  Survey Form</h1>
+        <p>This is a simple HTML survey form </p>
+    </header></center>
+    <center>
+    <form style="background-color:grey">
+    <fieldset>
+        <label>First Name</label> &nbsp;
+        <input type="text" placeholder="first name" required="required">
+        <br><br>
+        <label>Last Name</label> &nbsp;
+        <input type="text" placeholder="last name" required="required">
+        <br><br>
+        <label>Email id</label>
+        <input type="email" required="required">
+        <br><br><label>Phone No</label>
+        <input type="tel" required="required">
+        <br><br><label>Gender</label>
+        <input  type="radio" name="male" value="male" checked="male">Male &nbsp;
+        <input type="radio"  name="female" value="female" >Female
+        <input type="radio" name="Others" value="Others">others
+<br><br><label>Address</label>&nbsp;  &nbsp;  &nbsp; &nbsp;
+        <textarea name="user_message" rows="3" cols="50" placeholder="Enter Address Here"></textarea>
+       <br> <br><label>DOB</label>
+        <input type="date" required="required">
+        <label>Department</label>
+        <select>
+            <option>IT</option>
+            <option>CS</option>
+            <option>EEE</option>
+            <option>ECE</option>
+            <option>CIVIL</option>
+            <option>MEC</option>
+        </select>
+        
+       <br><br> <label for="feedback">Feedback:</label>
+		<textarea id="feedback" name="feedback"></textarea><br>
+<br><br>
+		<input type="submit" value="Submit"> &nbsp;
+        <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
